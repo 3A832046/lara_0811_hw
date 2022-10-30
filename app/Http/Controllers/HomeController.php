@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-class HomeController
+class HomeController extends Controller
 {
-
+    public function index()
+    {
+        return view('home');
+    }
 }
